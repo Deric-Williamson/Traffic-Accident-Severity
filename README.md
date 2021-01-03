@@ -1,1 +1,4 @@
-# Chicago-Traffic-Accident-Severity
+# Traffic-Accident-Severity
+by Deric Williamson
+
+## Business Case
