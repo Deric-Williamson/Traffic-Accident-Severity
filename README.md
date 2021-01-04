@@ -64,7 +64,7 @@ Decision Tree is another predictive modeling approach that works similar to a fl
 
 
 ### Random Forest
-Random Forest builds multiple decision trees can merge them together to get a better performing prediction.  
+Random Forest builds multiple decision trees that can merge them together to get a better performing prediction.  
 ![](images/rf_report.PNG)
 ![](images/rf_confusion.PNG)  
 
