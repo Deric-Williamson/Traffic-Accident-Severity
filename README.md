@@ -22,9 +22,8 @@ The data was used to predict whether an accident resulted in an injury or not, a
 
 25 percent of severe traffic accidents resulted from out-of-town drivers  
 
-Chicago has a high number of tourists and many suburbs that surround the city. This could contribute to reasons for a high percentage of severe traffic accidents by out-of-town drivers. 
-
-
+> Chicago has a high number of tourists and many suburbs that surround the city. This could contribute to reasons for a high percentage of severe traffic accidents by out-of
+-town drivers. 
 
 <p float="left">
 <img src="/images/intersection.PNG" width="500" height = 300 />
