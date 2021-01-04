@@ -28,13 +28,12 @@ Chicago has a high number of tourists and many suburbs that surround the city. T
 
 
 <p float="left">
-![](images/outoftown.PNG)
-![](images/intersection.PNG)
+<img src="/images/intersection" width="100" />
+<img src="/images/intersection" width="100" /> 
 </p>
 
 
 ![](images/intersection.PNG)
-![](images/Primary_cause.PNG)
 The graph shows that 41% of intersection related accidents resulted in some type of injury.
 
 ![](images/Primary_cause.PNG)  
