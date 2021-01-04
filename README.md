@@ -102,7 +102,7 @@ Recall dipped down from .52 to .29
 Auc slightly went up .68 to .70
 
 ### Feature Importances
-![](images/feature_imp.PNG)
+![](images/featue_imp.PNG)
 
 ## Recommendations
 Intersections, Rear-ending, and failing to reduce speed ranked the highest on the 'feature importance' table. I believe the city of Chicago needs to spend time on researching the effects of adding roundabouts in high traffic intersections. Not only will adding roundabouts lower the chance of a traffic accident becoming severe, but it will also make the driver less dependent on traffic lights and be forced to pay more attention to their surroundings. Another thing that can be done to intersections is that the lanes can be widened to allow for a clear line of sight for drivers turning right on red.
