@@ -35,7 +35,10 @@ The data was used to predict whether an accident resulted in an injury or not, a
 ![](images/Primary_cause.PNG)  
 
 ## Preprocessing
-Most of the features are categorical, so I will .get_dummies the categorical features, then I will apply the anova statistical test to weed out high p-values 
+After binning the categorical data, I used the anova statistical test to see if there is any dependence between the variables.  
+The test will assign each variable a p-value.  
+I will then remove any p-value that scored higher than .05
+
 
 ![](images/anova.PNG)  
 
