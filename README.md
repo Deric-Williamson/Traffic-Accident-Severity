@@ -26,7 +26,7 @@ The data was used to predict whether an accident resulted in an injury or not, a
 -town drivers. 
 
 <p float="left">
-  <img src="/images/outoftown.PNG" width="365" height = 285 /> 
+  <img src="/images/out_of_town.PNG" width="365" height = 285 /> 
   <img src="/images/intersection.PNG" width="500" height = 300 />
 </p>
 
