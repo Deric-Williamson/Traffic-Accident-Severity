@@ -16,5 +16,7 @@ There were three different datasets that I derived information from. The dataset
 
 The data was used to predict whether an accident resulted in an injury or not, as shown by the graph. This shows that the data was imbalanced at 24 percent resulting in some type of injury.
 
+![](images/Price_Histogram_Boxplot.PNG)
+
 ### Exploratory Data Analysis
 
