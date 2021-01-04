@@ -26,7 +26,15 @@ The data was used to predict whether an accident resulted in an injury or not, a
 Chicago has a high number of tourists and many suburbs that surround the city. This could contribute to reasons for a high percentage of severe traffic accidents by out-of-town drivers. 
 
 
-![](images/intersection.PNG)  
+
+<p float="left">
+![](images/outoftown.PNG)
+![](images/intersection.PNG)
+</p>
+
+
+![](images/intersection.PNG)
+![](images/Primary_cause.PNG)
 The graph shows that 41% of intersection related accidents resulted in some type of injury.
 
 ![](images/Primary_cause.PNG)  
