@@ -48,8 +48,7 @@ Some scores that I will be paying attention to help determine the model's perfor
 
 #### Logistic Regression
 
-![](images/log_report.PNG)  
-
+![](images/log_report.PNG) 
 ![](images/log_confusion.PNG)
 
 #### Decision Tree
