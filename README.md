@@ -28,8 +28,8 @@ Chicago has a high number of tourists and many suburbs that surround the city. T
 
 
 <p float="left">
-<img src="/images/intersection" width="100" />
-<img src="/images/intersection" width="100" /> 
+<img src="/images/intersection.PNG" width="100" />
+<img src="/images/intersection.PNG" width="100" /> 
 </p>
 
 
