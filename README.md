@@ -46,23 +46,70 @@ Some scores that I will be paying attention to help determine the model's perfor
 - Recall: (tp) / (tp+fn)
 - AUC: Area Under Curve
 
-#### Logistic Regression
+### Logistic Regression
 Logistic Regression is a model that utilize an s-shape curve that helps categorize the data into a binary classification.  
 ![](images/log_report.PNG)
 ![](images/log_confusion.PNG)
 
 
-#### Decision Tree
+### Decision Tree
 Decision Tree is another predictive modeling approach that works similar to a flowchart-like structure. The tree is mainly made up of decision nodes(conditionals) and leaves(decision on final outcome).  
 ![](images/dt_report.PNG)
 ![](images/dt_confusion.PNG)  
 
 
-#### Random Forest
+### Random Forest
 Random Forest builds multiple decision trees can merge them together to get a better performing prediction.  
 ![](images/rf_report.PNG)
 ![](images/rf_confusion.PNG)  
 
+## Final Model
+Our Decision Tree had the highest accuracy with decent recall and auc scores out of the other baseline models.  
+The goal now is to fine tune the decision tree for better accuracy and result scores.  
+
+### Grid Search
+sklearn.model_selection.GridSearchCV will help fine tune this model by running a series of models with all combinations of model parameters. This will help with performance and over-fitting problems.
+
+Some Decision Tree parameters include:
+
+- *criterion*: The function to measure the quality of a split.
+- *max_depth*: The maximum depth of the tree.
+- *min_samples_split*: The minimum number of samples required to split an internal node
+- *min_samples_leaf*: The minimum number of samples required to be at a leaf node.
+
+**output**
+> Mean Training Score: 80.07%  
+> Mean Test Score: 79.27%  
+> Best Parameter Combination Found During Grid Search:  
+  
+> {'criterion': 'gini',  
+> 'max_depth': 6,  
+> 'min_samples_leaf': 1,  
+> 'min_samples_split': 5}  
 
 
+### Final Decision Tree
+![](images/final_report.PNG)
+![](images/final_confusion.PNG)
+
+Accuracy slightly went up from .76 to .79  
+Recall dipped down from .52 to .29  
+Auc slightly went up .68 to .70
+
+### Feature Importances
+![](images/feature_imp.PNG)
+
+## Recommendations
+Intersections, Rear-ending, and failing to reduce speed ranked the highest on the 'feature importance' table. I believe the city of Chicago needs to spend time on researching the effects of adding roundabouts in high traffic intersections. Not only will adding roundabouts lower the chance of a traffic accident becoming severe, but it will also make the driver less dependent on traffic lights and be forced to pay more attention to their surroundings. Another thing that can be done to intersections is that the lanes can be widened to allow for a clear line of sight for drivers turning right on red.
+
+While exploring my data about out-of-town verses in town drivers, I realized that there was a high number of wrecks involving drivers that were not from the city of Chicago. With 23.7 percent of wrecks happening from out-of-town drivers, I believe that this could be due to some of these drivers being from the many suburbs of Chicago. I think the city needs to brainstorm ideas on how this can be improved upon, whether it be making the roadways less complicated or being diligent on better road sign placement throughout the city.
+
+The idea of being able to walk safely along the many sidewalks of Chicago as a pedestrian should never be something that becomes an issue. But my data has shown that being a pedestrian was the second most important feature related to severe car accidents in the city. There are many things the city can do to improve upon pedestrian safety and make it easier for drivers to navigate these pedestrians. First, widening driving lanes and adding more right sided shoulders for drivers will give more room for driving errors and increase the time a driver has to react and not hit a pedestrian. Secondly, adding additional sidewalks will make the city more pedestrian friendly. Another would be to increase the distance between the road and the sidewalks, giving both pedestrians and drivers more space to walk or drive safely. Lastly, let's increase the amount of raised pedestrian crosswalks in the city. This will eliminate the possibly of a driver hitting a pedestrian while they are crossing an intersection, thus making our intersections safer as well.
+
+## Future Work
+Most of my future work will be focused on improving my final model by:
+
+- Raising ROC curve thresholds as previously mentioned to raise recall score (and lowering the False Negatives)
+- Running a scatter plot on misclassified data to find a common theme as to why it was misclassified
+- Looking at feature importance on the chosen model and drop the lowest to speed up future works
 
