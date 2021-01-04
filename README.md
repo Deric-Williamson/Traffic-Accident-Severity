@@ -20,18 +20,17 @@ The data was used to predict whether an accident resulted in an injury or not, a
 
 ## Exploratory Data Analysis
 
-25 percent of severe traffic accidents resulted from out-of-town drivers  
+25 percent of severe traffic accidents resulted from out-of-town drivers (graph on left) 
 
 > Chicago has a high number of tourists and many suburbs that surround the city. This could contribute to reasons for a high percentage of severe traffic accidents by out-of
 -town drivers. 
 
 <p float="left">
-<img src="/images/intersection.PNG" width="500" height = 300 />
-<img src="/images/outoftown.PNG" width="365" height = 285 /> 
+  <img src="/images/outoftown.PNG" width="365" height = 285 /> 
+  <img src="/images/intersection.PNG" width="500" height = 300 />
 </p>
 
-
-The graph shows that 41% of intersection related accidents resulted in some type of injury.
+**The graph on the right shows that 41% of intersection related accidents resulted in some type of injury.**
 
 ![](images/Primary_cause.PNG)  
 Top 10 primary causes of traffic accidents 
