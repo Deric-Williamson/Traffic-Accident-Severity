@@ -26,14 +26,13 @@ The data was used to predict whether an accident resulted in an injury or not, a
 -town drivers. 
 
 <p float="left">
-  <img src="/images/out_of_town.PNG" width="365" height = 285 /> 
+  <img src="/images/out_of_town.PNG" width="335" height = 300 /> 
   <img src="/images/intersection.PNG" width="500" height = 300 />
 </p>
 
 **The graph on the right shows that 41% of intersection related accidents resulted in some type of injury.**
 
 ![](images/Primary_cause.PNG)  
-Top 10 primary causes of traffic accidents 
 
 ## Preprocessing
 Most of the features are categorical, so I will .get_dummies the categorical features, then I will apply the anova statistical test to weed out high p-values 
