@@ -10,7 +10,7 @@ Drivers will always be distracted while driving, so what can we do to help reduc
 
 
 ## The Data
-The data was taken from cityofchicago.org/transportation and was created from the city of Chicago’s electronic crash reporting system from 2015 to present. 
+The data was taken from [cityofchicago.org/transportation](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if) and was created from the city of Chicago’s electronic crash reporting system from 2015 to present. 
 
 There were three different datasets that I derived information from. The datasets were about the people, the vehicles, and the specific crashes involved which I combined into one dataset for this project.  
 
